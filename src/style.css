@@ -29,7 +29,7 @@ section{
     position: relative;
     top: 60px;
     width: 100%;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -38,7 +38,6 @@ section{
 
 article{
     position: relative;
-    top: -70px;
     font-size: xx-large;
     width: 500px;
     text-align: center;
@@ -46,21 +45,29 @@ article{
 
 h2{
     font-size: xx-large;
+    text-align: center;
 }
 
-a
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /*/////////////////////// nav ///////////////////////*/
 
 .logo{
-    background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
 }
 
 .sect{
     position: relative;
-    width: 200px;
+    width: 27vh;
     height: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -69,42 +76,157 @@ a
 }
 
 .sect-but{
-    width: 100px;
     height: 37px;
     text-align: center;
 }
 
 /*/////////////////////// Welcome ///////////////////////*/
 
-.img-welc-desk{
-    width: 500px;
+.sect-welc{
     height: 400px;
-    background-color: blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ISS042-E-158315_-_View_of_Earth.jpg/1280px-ISS042-E-158315_-_View_of_Earth.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow:  0 0 3px #000000, 0 0 5px #000000;
 }
 
 /*/////////////////////// Process ///////////////////////*/
 
 .sec-func{
-    background-color: cadetblue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f2/Correlation_of_sea_surface_temperature_with_cloud_patterns_off_the_west_coast_of_North_America_during_the_upwelling_season._%281969%29_%2820079068023%29.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow:  0 0 3px #000000, 0 0 5px #000000;
+    height: 1100px;
+    display: grid;
 }
 
 .img-proc-1{
-    background-color: blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/58/Hurricane_Ian_-_GOES-East_GEOCOLOR_satellite_image_on_27_September_2022%2C_just_after_sunset%2C_up_to_2331_UTC.gif);
+    background-size: cover;
+    background-position: center;
     width: 700px;
     height: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 
 .img-proc-2{
-    background-color: blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/ce/Sentinel-2_L1C_image_on_2021-04-25.gif);
+    background-size: cover;
+    background-position: center;
     width: 700px;
     height: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.art-proc-mob{
+    display: none;
+}
+
+.proc{
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 /*/////////////////////// Dark fleet ///////////////////////*/
 
 .sect-df{
-    height: 700px;
-    display: grid;
+    height: 570px;
+}
+
+.video-desk{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.video-mob{
+    display: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/*/////////////////////// mob additional ///////////////////////*/
+
+.add-mob{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+}
+
+.img-add{
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 640px; 
     justify-content: space-around;
+}
+
+/*/////////////////////// mob version ///////////////////////*/
+
+@media (max-width: 1269px){
+    .sect{
+        width: 17vh;
+    }
+    .sect-welc{
+        height: 200px;
+    }
+    article{
+        top: 0;
+        font-size: x-large;
+    }
+    h2{
+        font-size: x-large;
+    }
+    .sec-func{
+        height: 800px;
+        background-color: whitesmoke;
+    }
+    .proc{
+        height: 400px;
+        display: grid;
+    }
+    .img-proc-1{
+        width: 350px;
+        height: 200px;
+    }
+    .img-proc-2{
+        width: 350px;
+        height: 200px;
+    }
+    .art-proc-desk{
+        display: none;
+    }
+    .art-proc-mob{
+        display: block;
+        width: 350px;
+
+    }
+    .art-proc-ini{
+        width: 350px;
+    }
+    .video-desk{
+        display: none;
+    }
+    .video-mob{
+        display: block;
+    }
+    .sect-df{
+        height: 370px;
+    }
+    footer{
+        height: 120px;
+        flex-wrap: wrap;
+    }
+    .add-mob{
+        height: 300px;
+    }
+    .img-add{
+        display: none;
+    }
 }
