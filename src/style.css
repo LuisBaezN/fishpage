@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    position: relative;
+    top: 60px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    position: relative;
+    top: -70px;
+    font-size: xx-large;
+    width: 500px;
+    text-align: center;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+a
+
+/*/////////////////////// nav ///////////////////////*/
+
+.logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.sect{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 20px;
+}
+
+.sect-but{
+    width: 100px;
+    height: 37px;
+    text-align: center;
+}
+
+/*/////////////////////// Welcome ///////////////////////*/
+
+.img-welc-desk{
+    width: 500px;
+    height: 400px;
+    background-color: blue;
+}
+
+/*/////////////////////// Process ///////////////////////*/
+
+.sec-func{
+    background-color: cadetblue;
+}
+
+.img-proc-1{
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+}
+
+
+.img-proc-2{
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+}
+
+/*/////////////////////// Dark fleet ///////////////////////*/
+
+.sect-df{
+    height: 700px;
+    display: grid;
+    justify-content: space-around;
+}

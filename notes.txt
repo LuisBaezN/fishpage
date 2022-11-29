@@ -1,0 +1,27 @@
+CNN - 9
+
+1.- Optical daytime imagery
+- Expensive (Planet) and the free resources are from mostly costal oceans (European Space Agency's Sentinel-2 satellite)
+- limited by clouds
+
+2.- Synthetic aperture radar (SAR)
+- The European Space Agency’s Sentinel-1 mission began providing global SAR data for free in 2014 (S1A) and doubled its acquisitions with a second satellite (S1B) in 2016. Although the open oceans are not covered, the entire world’s coastlines are.
+
+3.- Automatic Identification System (AIS)
+- per year a few thousand dollars
+
+4.- Visible Infrared Imaging Radiometer Suite (VIIRS) - Night time optical imagery 47
+- free
+- low resolution (750m per pixel)
+- clouds reduce brigthness and zenith angle
+- sources of false detections include moon glint, cosmic rays, airplanes, sunlight hitting the satellite, the aurora borealis or aurora australis, and the South Atlantic Anomaly (where the Earth's inner Van Allen radiation belt comes closest to earth, mostly only an issue near South America and in the southern Atlantic)
+- sar is its complement
+- data 22, 23
+planetscope or viirs -> skysat
+
+
+
+
+
+
+
