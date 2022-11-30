@@ -83,7 +83,7 @@ a{
 /*/////////////////////// Welcome ///////////////////////*/
 
 .sect-welc{
-    height: 400px;
+    height: 600px;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ISS042-E-158315_-_View_of_Earth.jpg/1280px-ISS042-E-158315_-_View_of_Earth.jpg);
     background-size: cover;
     background-position: center;
@@ -156,7 +156,7 @@ a{
 .add-mob{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 550px;
     align-content: center;
 }
 
